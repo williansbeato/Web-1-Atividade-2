@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #c1c1c1;
+  margin: 50px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #004d00;
+}
+
+.container {
+  background-color: #e9ffea;
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cabecalho,
+.rodape {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.corpo {
+  width: 75%;
+  order: 2;
+  border-right: 1px dashed #000000;
+  padding: 10px;
+}
+
+.menu {
+  width: 25%;
+  order: 3;
+  padding: 5px;
+  font-size: 110%;
+}
+
+.cabecalho {
+  order: 1;
+  border-bottom: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.rodape {
+  order: 4;
+  border-top: 1px solid #000000;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.cabecalho img {
+  width: 300px;
+  margin-right: 10px;
+}
+
+.cabecalho h1 {
+  font-size: 180%;
+  text-transform: uppercase;
+  color: #006a03;
+}
+
+.cabecalho h2 {
+  font-size: 160%;
+  color: #008903;
+}
+
+.rodape img {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.rodape .autor {
+  font-weight: bold;
+  color: #7e0000;
+}
+
+.corpo p {
+  text-align: justify;
+  line-height: 150%;
+}
+
+.corpo h3 {
+  text-transform: uppercase;
+  font-size: 110%;
+  font-weight: bold;
+  border-bottom: 1px dotted #000000;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  width: 50%;
+  background: url("imagens/seta.png") no-repeat 0 center;
+}
+
+.menu h3 {
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.menu h3::before {
+  content: url("imagens/menu.png");
+  margin-right: 5px;
+}
+
+.menu li {
+  border-bottom: 1px solid #4ea947;
+}
+
+.menu li:first-of-type {
+  border-top: 1px solid #4ea947;
+}
+
+.menu li a {
+  padding: 20px;
+  display: block;
+  padding-left: 40px;
+  background: url("imagens/seta.png") no-repeat 20px center;
+}
+
+.menu li a:hover {
+  background-color: #02d700;
+}
+
+strong{
+  font-weight: bold;
+}
+
+em{
+  font-style: italic;
+}
+
+.mapa{
+  height: 30%;
+  width: 95%;
+  margin: 10px;
+
+}
+.localizacao{
+  float: right;
+  margin: 10px;
+  width: 50%;
+  height: 20%;
+}
+
+.entrada-ifpr{
+  float: left;
+  margin: 10px;
+  width: 230px;
+}
+
+.gente{
+  float: left;
+  margin: 10px;
+  float: right;
+  width: 180px;
+}
+
+.letras-negrito{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.texto{
+  line-height: 1.5;
+
+}
+
+.espaco-pro-lado{
+  margin-left: 30px;
+}
